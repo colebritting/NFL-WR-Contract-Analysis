@@ -3,6 +3,8 @@ NFL teams need to plan their roster construction ahead of time to make sure they
 
 Using NFL WR contract data, along with statistics from receivers' first 3 years in the league, I used Python to create various machine learning models to predict this. I first found contract data for NFL receivers, ranked them all based on APY value in each given year, and selected each second contract. I then found statistics for each receiver's first 3 years in the league, and used these statistics as my feature variables. After running my models, I cut down on my variables to strengthen the results, and came away with some great results. I used SVM, Decision Trees, Random Forest, Logistic Regression, Gradient Boosting, and Naive Bayes.
 
+
+
 Data: 
 
 https://overthecap.com/contract-history/wide-receiver
